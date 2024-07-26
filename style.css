@@ -33,6 +33,7 @@ ul a{
   background-repeat: no-repeat;
   height: 80vh;
   position: relative;
+
 }
 
 .words {
@@ -50,6 +51,7 @@ img {
   display: flex;
   flex-direction: column;
   font-weight: bold;
+  margin-bottom: 20px;
   /* border-left: 1px solid red; */
 }
 .intro a {
@@ -66,6 +68,7 @@ img {
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
+ 
 }
 .para {
   font-size: 20px;
@@ -96,7 +99,7 @@ img {
 }
 
 .shopp {
-  transform: translateY(40%);
+  transform: translateY(12%);
   margin: 0px 0px 0px 0px;
   float: left;
   /* border: 2px solid black; */
