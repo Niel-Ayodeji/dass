@@ -1,10 +1,15 @@
-ul a{
-   border: 2px solid black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul a {
+  border: 2px solid black;
 }
 
-.links{
+.links {
   display: flex;
-  
+
   margin-left: 150px;
 }
 
@@ -15,56 +20,52 @@ ul a{
   color: #ffc107;
   text-decoration: rgba(143, 139, 139, 0.788) underline;
 }
-.nav-item .act{
+.nav-item .act {
   color: #ffc107;
 }
-
-.push{
-margin-top: 60px;
- background-color: rgba(143, 139, 139, 0.548);
+.busi {
+  /* overflow: hidden; */
+  width: 100%;
 }
-
-.choose{
-  margin-top: 200px;
-  /* margin-left: 10px; */
-  padding-left: 200px;
-  
- }
- .choose h3{
+.pushh {
+  margin-top: 65px !important;
+  background-color: rgba(143, 139, 139, 0.548);
+}
+ 
+.choose h3 {
   font-size: 55px;
   font-weight: bolder;
- }
-.push img{
+}
+.push img {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.icoon .per{
+.icoon .per {
   padding: 0 10px;
- 
 }
-.meet{
+.meet {
   margin-top: 100px;
   margin-bottom: 30px;
   font-weight: bold;
 }
-.disc{
+.disc {
   width: 50%;
 }
-.don{
+.don {
   margin-bottom: -5px;
 }
-.card-text{
+.card-text {
   justify-content: space-around;
 }
-.quote{
+.quote {
   align-items: center;
   margin-left: 420px;
   color: gray;
 }
-.over{
+.over {
   text-wrap: wrap;
 }
-.imgg{
+.imgg {
   height: 60px;
 }
